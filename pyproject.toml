@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "meson-python",
+    "numpy",
+    "packaging"
+]
+build-backend = "mesonpy"
+
+[project]
+name = "addmodule"
+version = "0.1.0"
+description = "Array addition fortran module"
